@@ -10,3 +10,6 @@ URL `amqp://guest:guest@localhost:5672` memiliki arti yang sama persis dengan pr
 2. `guest:guest@:` adalah kredensial autentikasi yang digunakan untuk terhubung ke server AMQP.
 3. `localhost:` adalah hostname yang mengacu ke mesin lokal tempat program publisher dijalankan.
 4. `5672`adalah nomor port default yang digunakan oleh RabbitMQ untuk koneksi AMQP.
+
+## Running RabbitMQ
+![Running RabbitMQ](image.png)
