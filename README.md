@@ -13,3 +13,6 @@ URL `amqp://guest:guest@localhost:5672` memiliki arti yang sama persis dengan pr
 
 ## Running RabbitMQ
 ![Running RabbitMQ](image.png)
+
+## Sending and Processing Event
+![alt text](image-1.png)
