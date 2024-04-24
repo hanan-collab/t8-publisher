@@ -15,4 +15,8 @@ URL `amqp://guest:guest@localhost:5672` memiliki arti yang sama persis dengan pr
 ![Running RabbitMQ](image.png)
 
 ## Sending and Processing Event
-![alt text](image-1.png)
+![Send and Process Event](image-1.png)
+
+## Monitoring chart based on publisher
+![Monitoring Chart](image-2.png)
+Setiap kali `cargo run` di publisher dijalankan akan muncul spike pada monitoring chart. Dapat disimpulkan bahwasannya tiap `cargo run` yang dijalankan terjadi pengiriman message ke queue.
